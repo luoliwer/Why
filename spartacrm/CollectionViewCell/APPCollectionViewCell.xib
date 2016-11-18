@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="appcell" id="gTV-IL-0wX" customClass="APPCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="89"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LmX-dP-cFE">
+                        <rect key="frame" x="8" y="62" width="84" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="AD9-n3-ytd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R40-99-FbU">
+                        <rect key="frame" x="35" y="15" width="30" height="40"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="LmX-dP-cFE" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailingMargin" id="7Bb-hM-zqH"/>
+                <constraint firstItem="R40-99-FbU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="7bN-X2-NJM"/>
+                <constraint firstItem="R40-99-FbU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="35" id="HL5-LR-Hy8"/>
+                <constraint firstAttribute="bottom" secondItem="LmX-dP-cFE" secondAttribute="bottom" constant="6" id="On4-WK-AK5"/>
+                <constraint firstItem="LmX-dP-cFE" firstAttribute="top" secondItem="R40-99-FbU" secondAttribute="bottom" constant="7" id="WTF-Lu-iv8"/>
+                <constraint firstItem="R40-99-FbU" firstAttribute="centerX" secondItem="LmX-dP-cFE" secondAttribute="centerX" id="uIB-Z6-2br"/>
+                <constraint firstItem="LmX-dP-cFE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="zy7-PV-AEs"/>
+            </constraints>
+            <size key="customSize" width="100" height="89"/>
+            <connections>
+                <outlet property="appIcon" destination="R40-99-FbU" id="map-GA-KVV"/>
+                <outlet property="appName" destination="LmX-dP-cFE" id="4qk-jb-rpp"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="220.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "40818DBE32AA9E3CD5D0469A822B3FAFD2136328",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "005ad44c-9860-7b4f-b458-bf42b4f8600b++5302" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "005ad44c-9860-7b4f-b458-bf42b4f8600b++5302" : 0,
+    "40818DBE32AA9E3CD5D0469A822B3FAFD2136328" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8DEBD017-B59C-4BAF-96FC-BFDE17C9E8E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "005ad44c-9860-7b4f-b458-bf42b4f8600b++5302" : "wly-ios\/wly\/spartacrm\/ImageAlertView\/",
+    "40818DBE32AA9E3CD5D0469A822B3FAFD2136328" : "wly-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "wly",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "wly\/wly.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/168.7.61.7\/svn\/cib",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "005ad44c-9860-7b4f-b458-bf42b4f8600b++5302"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/hunkzeng\/wly-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40818DBE32AA9E3CD5D0469A822B3FAFD2136328"
+    }
+  ]
+}
